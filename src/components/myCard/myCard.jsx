@@ -1,7 +1,7 @@
 import { Card, Image, Text, Title, Center } from "@mantine/core";
 export const MyCard = ({ src, alt, children, title, mt }) => {
   return (
-    <Card shadow="sm" padding="lg" radius="md" mt={mt}>
+    <Card shadow="sm" padding="lg" radius="md" mt={"10px"}>
       <Card.Section>
         <Image src={src} height={170} alt={alt} title={title} />
       </Card.Section>
@@ -10,7 +10,7 @@ export const MyCard = ({ src, alt, children, title, mt }) => {
           {title}
         </Title>
       </Center>
-      <Text size="sm" c="#3F888F" mt={5} component="p">
+      <Text size="sm" c="#3F888F" component="p">
         {children}
       </Text>
     </Card>

@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans, sans-serif";
+    overscroll-behavior: none;
+}
+
+#root {
+    width: 1200px;
+}
+
+.main-page {
+    width: 500px;
+    padding-top: 50px;
+}
+
+.header-group, .contacts-bottom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacts {
+    padding: 20px;
+}

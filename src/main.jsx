@@ -1,13 +1,14 @@
-import { createTheme, MantineProvider } from "@mantine/core";
+import { MantineProvider } from "@mantine/core";
 import { createRoot } from "react-dom/client";
 import { Main } from "./page/main/main";
 import { RouterProvider } from "react-router/dom";
 import { createBrowserRouter } from "react-router";
 import { Paths } from "./paths";
 import { Information } from "./page/information/information";
+import { Contacts } from "./page/contacts/contacts";
+import "./style.css";
 import "@mantine/core/styles.css";
 import "@mantine/carousel/styles.css";
-import { Contacts } from "./page/contacts/contacts";
 
 const router = createBrowserRouter([
   {
@@ -24,13 +25,8 @@ const router = createBrowserRouter([
   },
 ]);
 
-const theme = createTheme({
-  fontFamily: "Open Sans, sans-serif",
-  cursorType: "pointer",
-});
-
 createRoot(document.getElementById("root")).render(
-  <MantineProvider theme={theme}>
+  <MantineProvider>
     <RouterProvider router={router} />
   </MantineProvider>
 );

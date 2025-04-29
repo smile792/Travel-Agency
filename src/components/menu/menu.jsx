@@ -1,4 +1,4 @@
-import { Burger, Button, Menu } from "@mantine/core";
+import { Burger, Menu } from "@mantine/core";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { Paths } from "../../paths";

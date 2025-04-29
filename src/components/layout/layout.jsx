@@ -1,4 +1,4 @@
-import { AppShell, Group } from "@mantine/core";
+import { AppShell } from "@mantine/core";
 import { Header } from "../header/header";
 import { useHeadroom } from "@mantine/hooks";
 
@@ -21,9 +21,7 @@ export const Layout = ({ children }) => {
         <Header />
       </AppShell.Header>
       <AppShell.Main>
-        <Group maw={500} pt={50}>
-          {children}
-        </Group>
+        <div className="main-page">{children}</div>
       </AppShell.Main>
     </AppShell>
   );

@@ -43,7 +43,7 @@ export const Main = () => {
     },
     {
       key: title.Bali,
-      src: image.Bali[0],
+      src: image.baliImages[0],
       title: title.Bali,
       description: description.Bali,
       images: image.baliImages,
@@ -51,7 +51,7 @@ export const Main = () => {
     },
     {
       key: title.Tailand,
-      src: image.Tailand[0],
+      src: image.tailandImages[0],
       title: title.Tailand,
       description: description.Tailand,
       images: image.tailandImages,
@@ -59,7 +59,7 @@ export const Main = () => {
     },
     {
       key: title.Dubai,
-      src: image.Dubai[0],
+      src: image.dubaiImages[0],
       title: title.Dubai,
       description: description.Dubai,
       images: image.dubaiImages,

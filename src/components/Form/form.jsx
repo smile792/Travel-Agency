@@ -14,7 +14,6 @@ export const Form = () => {
     },
   });
 
-  const onSubmit = (data) => console.log(data);
   const validateNotEmpty = (value) => {
     return value.trim() !== "" || "Обязательное поле";
   };
@@ -31,7 +30,7 @@ export const Form = () => {
         rules={{
           validate: validateNotEmpty,
           pattern: {
-            value: /^[A-Za-z]+$/i,
+            value: /^[A-Za-zА-Яа-яЁё]+$/i,
             message: "Имя может состоять только из букв",
           },
         }}
@@ -48,7 +47,7 @@ export const Form = () => {
         rules={{
           validate: validateNotEmpty,
           pattern: {
-            value: /^[A-Za-z]+$/i,
+            value: /^[A-Za-zА-Яа-яЁё]+$/i,
             message: "Фамилия может состоять только из букв",
           },
         }}

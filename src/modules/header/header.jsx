@@ -1,8 +1,8 @@
 import { Group, Text } from "@mantine/core";
-import { MenuForHeader } from "../menu/menu";
+import { MenuForHeader } from "../header/menu";
 import { Paths } from "../../paths";
-import { HandleToggle } from "../handleToggle/handleToggle";
-import { MyLink } from "../myLink/myLink";
+import { HandleToggle } from "../header/handleToggle";
+import { MyLink } from "../../UI/myLink/myLink";
 
 export const Header = () => {
   return (

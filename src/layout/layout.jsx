@@ -1,5 +1,5 @@
 import { AppShell } from "@mantine/core";
-import { Header } from "../header/header";
+import { Header } from "../modules/header/header";
 import { useHeadroom } from "@mantine/hooks";
 
 export const Layout = ({ children }) => {

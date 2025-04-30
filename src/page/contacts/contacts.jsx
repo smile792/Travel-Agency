@@ -1,8 +1,7 @@
-import { Paper } from "@mantine/core";
-import { Layout } from "../../components/layout/layout";
+import { Layout } from "../../layout/layout";
 import IconTelegram from "/src/svg-image/telegram.svg?react";
 import IconWhatsapp from "/src/svg-image/whatsapp.svg?react";
-import { MyLink } from "../../components/myLink/myLink";
+import { MyLink } from "../../UI/myLink/myLink";
 
 export const Contacts = () => {
   return (

@@ -1,7 +1,7 @@
 import { Button, Modal } from "@mantine/core";
-import { CustomCarousel } from "../custom-carousel/custom-carousel";
+import { CustomCarousel } from "../Carousel/custom-carousel";
 import { useDisclosure } from "@mantine/hooks";
-import { CustomTables } from "../custom-tables/custom-tables";
+import { CustomTables } from "../Tables/custom-tables";
 
 export const CustomModal = ({ images, array }) => {
   const [opened, { open, close }] = useDisclosure(false);

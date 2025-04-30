@@ -1,5 +1,5 @@
 import { Card, Image, Text, Title, Center } from "@mantine/core";
-export const MyCard = ({ src, alt, children, title, mt }) => {
+export const MyCard = ({ src, alt, children, title }) => {
   return (
     <Card shadow="sm" padding="lg" radius="md" mt={"10px"}>
       <Card.Section>

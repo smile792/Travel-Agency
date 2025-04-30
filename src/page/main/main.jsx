@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from "react";
-import { MyCard } from "../../components/myCard/myCard";
-import { Layout } from "../../components/layout/layout";
-import { CustomModal } from "../../components/custom-modal/custom-modal";
+import { MyCard } from "../../UI/myCard/myCard";
+import { Layout } from "../../layout/layout";
+import { CustomModal } from "../../UI/Modal/custom-modal";
 import {
   useTable,
   useFilter,
@@ -9,7 +9,7 @@ import {
   useText,
   useTitle,
   useDescription,
-} from "../../components/store/store";
+} from "../../store/store";
 import { Input } from "@mantine/core";
 
 export const Main = () => {

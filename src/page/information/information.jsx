@@ -1,7 +1,7 @@
 import { Text, Title } from "@mantine/core";
-import { Layout } from "../../components/layout/layout";
+import { Layout } from "../../layout/layout";
 import { Paths } from "../../paths";
-import { MyLink } from "../../components/myLink/myLink";
+import { MyLink } from "../../UI/myLink/myLink";
 
 export const Information = () => {
   return (

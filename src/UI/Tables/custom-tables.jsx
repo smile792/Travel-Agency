@@ -1,6 +1,6 @@
 import { Button, Center, Modal, Table } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import { Form } from "../Form/form";
+import { Form } from "../../modules/Form/form";
 
 export const CustomTables = ({ array }) => {
   const [opened, { open, close }] = useDisclosure(false);

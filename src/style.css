@@ -21,5 +21,9 @@
 }
 
 .contacts {
+    width: 500px;
+    background-color: #395778;
+    border-radius: 5%;
     padding: 20px;
+    margin-top: 20px;
 }

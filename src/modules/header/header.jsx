@@ -1,4 +1,4 @@
-import { Group, Text } from "@mantine/core";
+import { Text } from "@mantine/core";
 import { MenuForHeader } from "../header/menu";
 import { Paths } from "../../paths";
 import { HandleToggle } from "../header/handleToggle";

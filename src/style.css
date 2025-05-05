@@ -1,8 +1,13 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: "Open Sans, sans-serif";
-    overscroll-behavior: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
 }
 
 .main-page {
@@ -22,7 +27,28 @@
 }
 
 .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-information {
+    width: 500px;
     background-color: #395778;
     border-radius: 5%;
     padding: 20px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.information h2 {
+    color: #6C92AF
+}
+
+.information-text {
+    width: 500px;
 }

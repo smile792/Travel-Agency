@@ -1,12 +1,11 @@
-import { Layout } from "../../layout/layout";
 import IconTelegram from "/src/svg-image/telegram.svg?react";
 import IconWhatsapp from "/src/svg-image/whatsapp.svg?react";
 import { MyLink } from "../../UI/myLink/myLink";
 
 export const Contacts = () => {
   return (
-    <Layout>
-      <div className="contacts">
+    <div className="contacts">
+      <div className="contacts-information">
         📍 Наш адрес: г. Москва, ул. Ленина, д. 10, офис 5 <br></br>
         🕒 Режим работы: Понедельник – Пятница: 10:00 – 19:00 Суббота –
         Воскресенье: 11:00 – 17:00 <br></br>
@@ -34,6 +33,6 @@ export const Contacts = () => {
           </MyLink>
         </div>
       </div>
-    </Layout>
+    </div>
   );
 };

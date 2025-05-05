@@ -6,7 +6,7 @@ import { MyLink } from "../../UI/myLink/myLink";
 
 export const Header = () => {
   return (
-    <Group m={10} mt={10} justify="space-between" sx={{ cursor: "pointer" }}>
+    <div className="header">
       <MyLink to={Paths.main}>
         <Text
           size="xl"
@@ -21,6 +21,6 @@ export const Header = () => {
         <HandleToggle />
         <MenuForHeader />
       </div>
-    </Group>
+    </div>
   );
 };

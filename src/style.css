@@ -5,13 +5,14 @@
     overscroll-behavior: none;
 }
 
-#root {
-    width: 1200px;
-}
-
 .main-page {
     width: 500px;
-    padding-top: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 .header-group, .contacts-bottom {
@@ -21,9 +22,7 @@
 }
 
 .contacts {
-    width: 500px;
     background-color: #395778;
     border-radius: 5%;
     padding: 20px;
-    margin-top: 20px;
 }

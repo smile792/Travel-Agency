@@ -9,24 +9,13 @@ import { Contacts } from "./page/contacts/contacts";
 import "./style.css";
 import "@mantine/core/styles.css";
 import "@mantine/carousel/styles.css";
-
-const router = createBrowserRouter([
-  {
-    path: Paths.main,
-    element: <Main />,
-  },
-  {
-    path: Paths.information,
-    element: <Information />,
-  },
-  {
-    path: Paths.contacts,
-    element: <Contacts />,
-  },
-]);
+import { BrowserRouter } from "react-router";
+import { AppRouter } from "./routes";
 
 createRoot(document.getElementById("root")).render(
   <MantineProvider>
-    <RouterProvider router={router} />
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   </MantineProvider>
 );

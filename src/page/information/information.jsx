@@ -6,7 +6,7 @@ import { MyLink } from "../../UI/myLink/myLink";
 export const Information = () => {
   return (
     <Layout>
-      <Title c="#6C92AF" mt={40} align="center">
+      <Title c="#6C92AF" align="center">
         Ваше идеальное путешествие начинается здесь! ✈️🌍
       </Title>
       <Text align="center">

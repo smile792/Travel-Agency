@@ -17,9 +17,7 @@ export const Layout = ({ children }) => {
         width: "35%",
       }}
     >
-      <AppShell.Header withBorder={false} bg="transparent">
-        <Header />
-      </AppShell.Header>
+      <Header />
       <AppShell.Main>
         <div className="main-page">{children}</div>
       </AppShell.Main>

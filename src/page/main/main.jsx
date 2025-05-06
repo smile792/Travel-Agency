@@ -65,21 +65,23 @@ export const Main = () => {
     },
   ];
   return (
-    <div className="main">
-      <div className="main-page">
-        <Input
-          placeholder="Поиск тура"
-          value={text}
-          onChange={(e) => setText(e.target.value)}
-        />
-        {cardsData
-          .filter((card) => filter.includes(card.key))
-          .map((card) => (
-            <MyCard key={card.key} src={card.src} title={card.title}>
-              {card.description}
-              <CustomModal images={card.images} array={card.array} />
-            </MyCard>
-          ))}
+    <div className="container">
+      <div className="main">
+        <div className="main-page">
+          <Input
+            placeholder="Поиск тура"
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+          />
+          {cardsData
+            .filter((card) => filter.includes(card.key))
+            .map((card) => (
+              <MyCard key={card.key} src={card.src} title={card.title}>
+                {card.description}
+                <CustomModal images={card.images} array={card.array} />
+              </MyCard>
+            ))}
+        </div>
       </div>
     </div>
   );

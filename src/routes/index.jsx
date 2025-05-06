@@ -1,4 +1,4 @@
-import { Navigate, replace, Route, Routes } from "react-router";
+import { Navigate, Route, Routes } from "react-router";
 import { Paths } from "../paths";
 import { Main } from "../page/main/main";
 import { Information } from "../page/information/information";

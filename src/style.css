@@ -5,10 +5,12 @@
     font-family: "Open Sans, sans-serif";
 }
 
-.main {
+.container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 
 .main-page {
     width: 500px;
@@ -26,23 +28,12 @@
     gap: 10px;
 }
 
-.contacts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .contacts-information {
     width: 500px;
     background-color: #395778;
     border-radius: 5%;
     padding: 20px;
-}
-
-.information {
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
 .information h2 {

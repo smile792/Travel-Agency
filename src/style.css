@@ -43,3 +43,7 @@
 .information-text {
     width: 500px;
 }
+
+.toggle {
+    cursor: pointer;
+}

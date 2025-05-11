@@ -1,7 +1,7 @@
 import { Text } from "@mantine/core";
 import { MenuForHeader } from "../header/menu";
 import { Paths } from "../../paths";
-import { HandleToggle } from "../header/handleToggle";
+import { HandlerToggle } from "../header/handlerToggle";
 import { MyLink } from "../../UI/myLink/myLink";
 
 export const Header = () => {
@@ -18,7 +18,7 @@ export const Header = () => {
         </Text>
       </MyLink>
       <div className="header-group">
-        <HandleToggle />
+        <HandlerToggle />
         <MenuForHeader />
       </div>
     </div>
